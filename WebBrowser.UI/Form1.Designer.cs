@@ -127,6 +127,7 @@ namespace WebBrowser.UI
             this.exitWebBrowserToolStripMenuItem.Name = "exitWebBrowserToolStripMenuItem";
             this.exitWebBrowserToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
             this.exitWebBrowserToolStripMenuItem.Text = "Exit Web Browser";
+            this.exitWebBrowserToolStripMenuItem.Click += new System.EventHandler(this.exitWebBrowserToolStripMenuItem_Click);
             // 
             // manageHistoryToolStripMenuItem
             // 
