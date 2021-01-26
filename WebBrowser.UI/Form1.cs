@@ -21,5 +21,11 @@ namespace WebBrowser.UI
         {
             Application.Exit();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("You have located the about section of my Web Browser. This was implenmented in Module 3. My name is Trey Meares" +
+                ". My id is rwm009. Hope you enjoy this application.")
+        }
     }
 }
