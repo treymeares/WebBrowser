@@ -45,7 +45,7 @@ namespace WebBrowser.UI
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.BookMark = new System.Windows.Forms.WebBrowser();
+            this.WebBrowser1 = new System.Windows.Forms.WebBrowser();
             this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
             this.BackButton = new System.Windows.Forms.ToolStripButton();
             this.ForwardButton = new System.Windows.Forms.ToolStripButton();
@@ -192,7 +192,7 @@ namespace WebBrowser.UI
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.BookMark);
+            this.tabPage2.Controls.Add(this.WebBrowser1);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -201,13 +201,13 @@ namespace WebBrowser.UI
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // BookMark
+            // WebBrowser1
             // 
-            this.BookMark.Location = new System.Drawing.Point(-4, 0);
-            this.BookMark.MinimumSize = new System.Drawing.Size(20, 20);
-            this.BookMark.Name = "BookMark";
-            this.BookMark.Size = new System.Drawing.Size(1085, 647);
-            this.BookMark.TabIndex = 4;
+            this.WebBrowser1.Location = new System.Drawing.Point(-4, 0);
+            this.WebBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.WebBrowser1.Name = "WebBrowser1";
+            this.WebBrowser1.Size = new System.Drawing.Size(1085, 647);
+            this.WebBrowser1.TabIndex = 4;
             // 
             // toolStripTextBox1
             // 
@@ -259,7 +259,7 @@ namespace WebBrowser.UI
             this.GoButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.GoButton.Name = "GoButton";
             this.GoButton.Size = new System.Drawing.Size(34, 28);
-            this.GoButton.Text = "toolStripButton5";
+            this.GoButton.Text = "GoButton";
             this.GoButton.Click += new System.EventHandler(this.GoButton_Click);
             // 
             // toolStripButton6
@@ -316,7 +316,7 @@ namespace WebBrowser.UI
         private System.Windows.Forms.ToolStripButton HomeButton;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.WebBrowser BookMark;
+        private System.Windows.Forms.WebBrowser WebBrowser1;
         private System.Windows.Forms.ToolStripTextBox toolStripTextBox1;
         private System.Windows.Forms.ToolStripButton GoButton;
         private System.Windows.Forms.ToolStripButton toolStripButton6;

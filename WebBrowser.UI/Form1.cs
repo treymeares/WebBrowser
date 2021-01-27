@@ -47,13 +47,13 @@ namespace WebBrowser.UI
         {
             if(e.KeyCode == Keys.Enter)
             {
-                BookMark.Navigate(toolStripTextBox1.Text);
+                WebBrowser1.Navigate(toolStripTextBox1.Text);
             }
         }
 
         private void GoButton_Click(object sender, EventArgs e)
         {
-
+            WebBrowser1.Navigate(toolStripTextBox1.Text);
         }
     }
 }
