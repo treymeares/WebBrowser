@@ -214,6 +214,7 @@ namespace WebBrowser.UI
             this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(400, 33);
+            this.toolStripTextBox1.Text = "AddressBar";
             this.toolStripTextBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.toolStripTextbox1_KeyDown);
             // 
             // BackButton
@@ -223,7 +224,7 @@ namespace WebBrowser.UI
             this.BackButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.BackButton.Name = "BackButton";
             this.BackButton.Size = new System.Drawing.Size(34, 28);
-            this.BackButton.Text = "toolStripButton1";
+            this.BackButton.Text = "BackButton";
             // 
             // ForwardButton
             // 
@@ -232,7 +233,7 @@ namespace WebBrowser.UI
             this.ForwardButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ForwardButton.Name = "ForwardButton";
             this.ForwardButton.Size = new System.Drawing.Size(34, 28);
-            this.ForwardButton.Text = "toolStripButton2";
+            this.ForwardButton.Text = "ForwardButton";
             // 
             // ReLoadButton
             // 
@@ -241,7 +242,7 @@ namespace WebBrowser.UI
             this.ReLoadButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ReLoadButton.Name = "ReLoadButton";
             this.ReLoadButton.Size = new System.Drawing.Size(34, 28);
-            this.ReLoadButton.Text = "toolStripButton3";
+            this.ReLoadButton.Text = "ReloadButton";
             // 
             // HomeButton
             // 
@@ -269,7 +270,7 @@ namespace WebBrowser.UI
             this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(34, 28);
-            this.toolStripButton6.Text = "toolStripButton6";
+            this.toolStripButton6.Text = "BookmarkButton";
             // 
             // Form1
             // 
