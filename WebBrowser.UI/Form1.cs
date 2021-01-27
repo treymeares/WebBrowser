@@ -37,5 +37,23 @@ namespace WebBrowser.UI
         {
 
         }
+
+        private void toolStripTextBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripTextbox1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                BookMark.Navigate(toolStripTextBox1.Text);
+            }
+        }
+
+        private void GoButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

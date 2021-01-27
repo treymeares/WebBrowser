@@ -73,9 +73,29 @@ namespace WebBrowser.UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _774_7744982_png_file_icon_png_bookmark_icon {
+            get {
+                object obj = ResourceManager.GetObject("774-7744982_png-file-icon-png-bookmark-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap back__v1 {
             get {
                 object obj = ResourceManager.GetObject("back--v1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap go {
+            get {
+                object obj = ResourceManager.GetObject("go", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
